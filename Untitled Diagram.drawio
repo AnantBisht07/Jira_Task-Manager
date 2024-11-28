@@ -1,9 +1,147 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.2">
   <diagram name="Page-1" id="9J83SqrHOf88jrJDuqIi">
-    <mxGraphModel>
+    <mxGraphModel dx="2333" dy="1251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="15cdDv9wCTSXf97RSxRk-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="160" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="210" as="sourcePoint" />
+            <mxPoint x="260" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-6" value="&lt;b&gt;DB&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=10;" vertex="1" parent="1">
+          <mxGeometry x="100" y="202.5" width="70" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-9" value="&lt;b&gt;&lt;font color=&quot;#ff4f4f&quot; face=&quot;Tahoma&quot;&gt;Client&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="15cdDv9wCTSXf97RSxRk-9" target="15cdDv9wCTSXf97RSxRk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-11" value="&lt;b&gt;Giving authorization email and pass&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-5;" vertex="1" parent="1">
+          <mxGeometry x="380" y="170" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-12" value="&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff4f4f&quot;&gt;SERVER&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="300" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-13" value="&lt;b&gt;Check if creds are correct or not.&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-15" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="145" as="sourcePoint" />
+            <mxPoint x="210" y="105" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="85" />
+              <mxPoint x="414" y="185" />
+              <mxPoint x="300" y="110" />
+              <mxPoint x="320" y="160" />
+              <mxPoint x="250" y="145" />
+              <mxPoint x="290" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-16" value="&lt;h3&gt;&lt;b&gt;If creds are correct, provide TOKENS&lt;/b&gt;&lt;/h3&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="414" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-17" value="add user id, name and information (not password) inside the token." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="530" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.336;entryY=1.14;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140.5" y="519.8" as="sourcePoint" />
+            <mxPoint x="139.5" y="444.00000000000006" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="139.5" y="509.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-20" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="240" y="480.93" as="sourcePoint" />
+            <mxPoint x="490" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="480" />
+              <mxPoint x="490" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-21" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mfa_token;" vertex="1" parent="1">
+          <mxGeometry x="451" y="600" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-22" value="&lt;b&gt;&lt;font color=&quot;#ff5762&quot;&gt;Token generated&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="690" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-23" value="Now we are having the responsibility to deliver this token to the client safely" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="700" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-24" value="&lt;b&gt;&lt;font color=&quot;#ff3860&quot;&gt;We can send tokens through 2 ways&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff3860&quot;&gt;1) COOKIES&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff3860&quot;&gt;2) RESPONSE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="730" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.5" y="340" as="sourcePoint" />
+            <mxPoint x="139.66" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-27" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="780" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-29" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="15cdDv9wCTSXf97RSxRk-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="770" as="sourcePoint" />
+            <mxPoint x="710" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="770" />
+              <mxPoint x="780" y="650" />
+              <mxPoint x="700" y="720" />
+              <mxPoint x="670" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-30" value="&lt;b&gt;&lt;font color=&quot;#ff5959&quot;&gt;COOKIE&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-32" value="Response" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="790" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-37" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="983" y="780" as="sourcePoint" />
+            <mxPoint x="750" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="763" />
+              <mxPoint x="1030" y="643" />
+              <mxPoint x="950" y="713" />
+              <mxPoint x="920" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-38" value="&lt;b&gt;&lt;font color=&quot;#ff4242&quot;&gt;Header authorization&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="880" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-39" value="We send tokenin the form of JSON" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-40" value="Bearer&amp;nbsp; token baseed authentication(built in)." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="830" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="845" as="sourcePoint" />
+            <mxPoint x="1250" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15cdDv9wCTSXf97RSxRk-44" value="&lt;b&gt;We store these tokens in local storafe&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="900" width="220" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
